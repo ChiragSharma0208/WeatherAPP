@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+.app-image{
+  background-image:url("./assets/peakpx.jpg");
+  /* background-image:url("./assets/sunny.jpg"); */
+  background-size: cover;
+  background-position: bottom;
+  color: aliceblue;
+}
+main{
+  min-height: 100vh;
+}
+
+.search .search-box {
+  width: 90%;
+  display: block;
+  font-size: 20px;
+  padding: 12px;
+  margin:auto;
+  border-radius: 20px;
+  outline:none;
+border: none;
+
+background-color: rgba(255,255,255,0.65);
+box-shadow: 0px 5px rgba(6, 246, 246, 0.4);
+transform: 0.4s ease;
+}
+
+

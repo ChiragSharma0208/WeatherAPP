@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+  margin:0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  
+}
+
+.location-box .location{
+  margin-top: 60px;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 3px 3px rgba(14, 203, 224, 0.75);
+  letter-spacing: 3px;
+
+}
+.date{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  font-style: italic;
+}
+.weather-box{
+  text-align: center;
+}
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+background-color: rgba(255,255,255,0.28);;
+  margin:30px auto;
+  font-size: 100px;
+  font-weight:800;
+  padding: 20px 25px ;
+  border-radius: 25px;
+  text-shadow: 6px 4px rgba(14, 203, 224, 0.75);
+  box-shadow: 6px 4px rgba(14, 203, 224, 0.5);;
+  
+ 
+  
+}
+.weather{
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
